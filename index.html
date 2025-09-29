@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fictional product landing page showcasing a variety of HTML elements in a clean and modern design."
+    />
+    <meta name="author" content="Ashikujjaman Himel" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-900 font-sans">
+    <!-- Navbar -->
+    <header class="bg-blue-600 text-white shadow-md">
+      <div
+        class="max-w-screen-xl mx-auto px-4 py-6 flex justify-between items-center"
+      >
+        <a href="#" class="text-2xl font-bold">Brand</a>
+        <nav>
+          <ul class="flex space-x-6">
+            <li>
+              <a href="#features" class="hover:text-blue-200">Features</a>
+            </li>
+            <li><a href="#pricing" class="hover:text-blue-200">Pricing</a></li>
+            <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-blue-700 text-white h-screen flex flex-col justify-center items-center text-center"
+    >
+      <h1 class="text-5xl font-extrabold mb-4">The Future of Productivity</h1>
+      <p class="text-lg mb-6">
+        Empowering your work with the most powerful tools available.
+      </p>
+      <a
+        href="#features"
+        class="bg-white text-blue-700 px-6 py-3 rounded-lg text-xl font-semibold hover:bg-gray-200 transition"
+        >Learn More</a
+      >
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-10">Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+              High Performance
+            </h3>
+            <p class="text-gray-600">
+              Achieve your goals faster with optimized performance and efficient
+              tools designed for your needs.
+            </p>
+          </div>
+          <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+              24/7 Support
+            </h3>
+            <p class="text-gray-600">
+              Our dedicated support team is here for you around the clock to
+              ensure you get the help you need, when you need it.
+            </p>
+          </div>
+          <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+              Cloud Integration
+            </h3>
+            <p class="text-gray-600">
+              Seamlessly integrate with cloud services to ensure your data is
+              always secure and easily accessible.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-gray-100">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-gray-800 mb-10">Pricing</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+              Basic Plan
+            </h3>
+            <p class="text-lg text-gray-600 mb-4">$19/month</p>
+            <ul class="text-left text-gray-600 mb-6">
+              <li>Basic Support</li>
+              <li>Up to 5 users</li>
+              <li>10GB Cloud Storage</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
+              >Choose Plan</a
+            >
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">Pro Plan</h3>
+            <p class="text-lg text-gray-600 mb-4">$49/month</p>
+            <ul class="text-left text-gray-600 mb-6">
+              <li>Premium Support</li>
+              <li>Up to 20 users</li>
+              <li>50GB Cloud Storage</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
+              >Choose Plan</a
+            >
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h3 class="text-2xl font-semibold text-blue-600 mb-4">
+              Enterprise
+            </h3>
+            <p class="text-lg text-gray-600 mb-4">Custom Pricing</p>
+            <ul class="text-left text-gray-600 mb-6">
+              <li>Dedicated Support</li>
+              <li>Unlimited users</li>
+              <li>Unlimited Cloud Storage</li>
+            </ul>
+            <a
+              href="#"
+              class="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
+              >Contact Sales</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-blue-600 text-white">
+      <div class="max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-white mb-10">Contact Us</h2>
+        <form action="#" method="POST" class="max-w-lg mx-auto space-y-6">
+          <div class="space-y-2">
+            <label for="name" class="block text-lg font-semibold"
+              >Full Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full px-4 py-3 border rounded-lg"
+              placeholder="Your Full Name"
+              required
+            />
+          </div>
+          <div class="space-y-2">
+            <label for="email" class="block text-lg font-semibold"
+              >Email Address</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-4 py-3 border rounded-lg"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="space-y-2">
+            <label for="message" class="block text-lg font-semibold"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="w-full px-4 py-3 border rounded-lg"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-white text-blue-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-gray-200 transition"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+        <div>&copy; 2025 Your Company. All Rights Reserved.</div>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+          <a href="#" class="hover:text-gray-400">Terms of Service</a>
+          <a href="#" class="hover:text-gray-400">Sitemap</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

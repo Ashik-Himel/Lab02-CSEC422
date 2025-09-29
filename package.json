@@ -1,0 +1,16 @@
+{
+  "name": "product-landing-page",
+  "version": "1.0.0",
+  "description": "Fictional product landing page showcasing a variety of HTML elements in a clean and modern design.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
+    "minify": "npx @tailwindcss/cli -o ./output.css --minify"
+  },
+  "author": "Ashikujjaman Himel",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
