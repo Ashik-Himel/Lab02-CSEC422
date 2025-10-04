@@ -1,7 +1,7 @@
 {
-  "name": "product-landing-page",
+  "name": "html-guide",
   "version": "1.0.0",
-  "description": "Fictional product landing page showcasing a variety of HTML elements in a clean and modern design.",
+  "description": "A comprehensive guide to HTML tags with live examples and best practices.",
   "main": "index.html",
   "scripts": {
     "dev": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
